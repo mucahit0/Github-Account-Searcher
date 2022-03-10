@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #141e30,#243b55 );
+}
+
+.container{
+   background-color: #131f2e;
+    border-radius: 10px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    width: 100%;
+    position: relative;
+}
+
+.input-box input{
+    max-width: 100%;
+    width: 350px;
+    height: 50px;
+    padding: 0 20px;
+    outline: none;
+    border-radius: 10px; 
+    border:0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .profil-area{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    align-items: center;
+    padding: 0 50px;
+    color: rgb(219, 219, 219);
+}
+
+.container .profil-area .avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .profil-area .desription-area .info {
+    margin-bottom: 20px;
+}
+
+.container .profil-area .desription-area .info h2{
+    margin-bottom: 6px;
+    font-size: 26px;
+    color: rgb(245, 244, 244);
+}
+.container .profil-area .desription-area .description{
+    margin-bottom: 3rem;
+    letter-spacing: 0.6px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container .profil-area .desription-area .social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container .profil-area .desription-area .social .social-box{
+    text-align:center;
+    margin-right: 2rem;
+}
+
+.container .profil-area .desription-area .social .social-box div{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.container .profil-area .desription-area .social .social-box span{
+    font-size: 17px;
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+
+}
