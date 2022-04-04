@@ -57,7 +57,7 @@ form.addEventListener('submit', (e) =>{
     e.preventDefault();
 })
 
-document.addEventListener('DOMContentLoaded', getUser('mucahit0'));
+document.addEventListener('DOMContentLoaded', getUser('mucahittasan'));
 
 
 
